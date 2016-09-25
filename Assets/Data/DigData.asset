@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6cb0042a502caa43800af699d65f2d5, type: 3}
+  m_Name: DigData
+  m_EditorClassIdentifier: 
+  features:
+  - location: {x: 4, y: 2, z: 45}
+    type: 2
+    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 5, y: 1, z: 43}
+    type: 3
+    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 7, y: 1, z: 45}
+    type: 3
+    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 46, y: 2, z: 5}
+    type: 2
+    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 3}
+    type: 3
+    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+    timePeriod: {x: 0, y: 0}

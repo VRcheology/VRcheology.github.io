@@ -1,0 +1,117 @@
+[{
+            "id": "#record-1-of-63",
+            "label": "G_2_2002_2014_1_P_1.JPG",
+            "rdfs:isDefinedBy": "http://opencontext.org/media/2FCABD65-D741-46F1-00B2-E8EA296F2FD2",
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#geo-rec-geom-1-of-63",
+                "type": "Point",
+                "coordinates": [
+                    40.813699,
+                    37.831619
+                ]
+            },
+            "when": {
+                "id": "#event-rec-when-1-of-63",
+                "type": "oc-gen:formation-use-life",
+                "start": "-3499",
+                "stop": "-2499"
+            },
+            "properties": {
+                "id": "#rec-1-of-63",
+                "feature-type": "item record",
+                "uri": "http://opencontext.org/media/2FCABD65-D741-46F1-00B2-E8EA296F2FD2",
+                "href": "https://opencontext.org/media/2FCABD65-D741-46F1-00B2-E8EA296F2FD2",
+                "citation uri": "http://n2t.net/ark:/28722/k2db81h2x",
+                "label": "G_2_2002_2014_1_P_1.JPG",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3DE4CD9C-259E-4C14-9B03-8B10454BA66E",
+                "context label": "Turkey/Kenan Tepe/Area G/Trench 2/Locus 2002/Finds Bag 2014/Object 1",
+                "context href": "https://opencontext.org/subjects/5CE9C66F-C159-4B53-03C2-20DDDEF9B3DE",
+                "early bce/ce": -3500.0,
+                "late bce/ce": -2500.0,
+                "item category": "Image",
+                "thumbnail": "https://merritt.cdlib.org/d/ark%3A%2F28722%2Fk2db81h2x/0/artiraq.org/static/opencontext/kenantepe/thumbs/Findsphotos2/AreaG/G2/G_2_2002_2014_1_P_1.JPG",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2016-04-16T05:52:58Z"
+            }
+        },
+        {
+            "id": "#record-2-of-63",
+            "label": "G_2_2002_2014_1_P_3.JPG",
+            "rdfs:isDefinedBy": "http://opencontext.org/media/793CA328-627E-4006-CCAA-5D5E35E4554F",
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#geo-rec-geom-2-of-63",
+                "type": "Point",
+                "coordinates": [
+                    40.813699,
+                    37.831619
+                ]
+            },
+            "when": {
+                "id": "#event-rec-when-2-of-63",
+                "type": "oc-gen:formation-use-life",
+                "start": "-3499",
+                "stop": "-2499"
+            },
+            "properties": {
+                "id": "#rec-2-of-63",
+                "feature-type": "item record",
+                "uri": "http://opencontext.org/media/793CA328-627E-4006-CCAA-5D5E35E4554F",
+                "href": "https://opencontext.org/media/793CA328-627E-4006-CCAA-5D5E35E4554F",
+                "citation uri": "http://n2t.net/ark:/28722/k25t3ms29",
+                "label": "G_2_2002_2014_1_P_3.JPG",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3DE4CD9C-259E-4C14-9B03-8B10454BA66E",
+                "context label": "Turkey/Kenan Tepe/Area G/Trench 2/Locus 2002/Finds Bag 2014/Object 1",
+                "context href": "https://opencontext.org/subjects/5CE9C66F-C159-4B53-03C2-20DDDEF9B3DE",
+                "early bce/ce": -3500.0,
+                "late bce/ce": -2500.0,
+                "item category": "Image",
+                "thumbnail": "https://merritt.cdlib.org/d/ark%3A%2F28722%2Fk25t3ms29/0/artiraq.org/static/opencontext/kenantepe/thumbs/Findsphotos2/AreaG/G2/G_2_2002_2014_1_P_3.JPG",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2016-04-16T09:54:22Z"
+            }
+        },
+        {
+            "id": "#record-3-of-63",
+            "label": "G_2_2002_2014_1_P_2.JPG",
+            "rdfs:isDefinedBy": "http://opencontext.org/media/C553654B-32A1-4695-921C-EDD52469B8F1",
+            "type": "Feature",
+            "category": "oc-api:geo-record",
+            "geometry": {
+                "id": "#geo-rec-geom-3-of-63",
+                "type": "Point",
+                "coordinates": [
+                    40.813699,
+                    37.831619
+                ]
+            },
+            "when": {
+                "id": "#event-rec-when-3-of-63",
+                "type": "oc-gen:formation-use-life",
+                "start": "-3499",
+                "stop": "-2499"
+            },
+            "properties": {
+                "id": "#rec-3-of-63",
+                "feature-type": "item record",
+                "uri": "http://opencontext.org/media/C553654B-32A1-4695-921C-EDD52469B8F1",
+                "href": "https://opencontext.org/media/C553654B-32A1-4695-921C-EDD52469B8F1",
+                "citation uri": "http://n2t.net/ark:/28722/k2nv9g372",
+                "label": "G_2_2002_2014_1_P_2.JPG",
+                "project label": "Kenan Tepe",
+                "project href": "https://opencontext.org/projects/3DE4CD9C-259E-4C14-9B03-8B10454BA66E",
+                "context label": "Turkey/Kenan Tepe/Area G/Trench 2/Locus 2002/Finds Bag 2014/Object 1",
+                "context href": "https://opencontext.org/subjects/5CE9C66F-C159-4B53-03C2-20DDDEF9B3DE",
+                "early bce/ce": -3500.0,
+                "late bce/ce": -2500.0,
+                "item category": "Image",
+                "thumbnail": "https://merritt.cdlib.org/d/ark%3A%2F28722%2Fk2nv9g372/0/artiraq.org/static/opencontext/kenantepe/thumbs/Findsphotos2/AreaG/G2/G_2_2002_2014_1_P_2.JPG",
+                "published": "2012-03-28T00:00:00Z",
+                "updated": "2016-04-17T21:18:17Z"
+            }
+        }]
