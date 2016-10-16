@@ -18,7 +18,7 @@ public class Parser
         {
             DigData digData = MakeDigData(textData);
 
-            AssetDatabase.CreateAsset(digData, "Assets/Data/DigData.asset");
+            AssetDatabase.CreateAsset(digData, DigData.PATHNAME);
             AssetDatabase.SaveAssets();
         }
     }

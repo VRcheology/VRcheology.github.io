@@ -12,23 +12,1783 @@ MonoBehaviour:
   m_Name: DigData
   m_EditorClassIdentifier: 
   features:
-  - location: {x: 4, y: 2, z: 45}
+  - location: {x: 0, y: 0, z: 43}
+    type: 0
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 4, z: 33}
+    type: 0
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 2, z: 33}
+    type: 0
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 0, z: 3}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 10, y: 2, z: 32}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 2, z: 33}
+    type: 0
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 2}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 0, y: 1, z: 43}
+    type: 1
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 3, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 0, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 1, z: 17}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 2, z: 30}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 1, z: 32}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 4, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 45}
+    type: 1
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 44, y: 3, z: 20}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 43}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 34, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 3}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 3, z: 32}
     type: 2
-    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+    image: {fileID: 0}
     timePeriod: {x: 0, y: 0}
-  - location: {x: 5, y: 1, z: 43}
-    type: 3
-    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
     timePeriod: {x: 0, y: 0}
-  - location: {x: 7, y: 1, z: 45}
-    type: 3
-    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+  - location: {x: 47, y: 4, z: 44}
+    type: 4
+    image: {fileID: 0}
     timePeriod: {x: 0, y: 0}
-  - location: {x: 46, y: 2, z: 5}
+  - location: {x: 47, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 2, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 47}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 2, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 3}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 4, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 3, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 4, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 1, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 4, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 4, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 6, y: 1, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 34, y: 4, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 0, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 49, y: 3, z: 49}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 1}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 0, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 0, z: 6}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 1, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 2, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 0, z: 33}
+    type: 0
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 46}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 46, y: 4, z: 42}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 3, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 1, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 3, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 3, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 1, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 46}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 0, z: 21}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 34, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 1, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 0, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 47}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 1, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 0, z: 14}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 0, y: 2, z: 43}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 4, z: 30}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 3}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 46, y: 2, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 8}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 34, y: 1, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 34, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 0, z: 43}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 34, y: 1, z: 28}
+    type: 1
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 34, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 10}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 2, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 2, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 46, y: 3, z: 43}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 40, y: 2, z: 2}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 46}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 14}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 34, y: 0, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 0, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 1, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 1, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 34, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 40, y: 2, z: 1}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 0, z: 8}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 2, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 4, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 4, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 3, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 4, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 0, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 0, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 0, z: 13}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 27, y: 2, z: 25}
+    type: 1
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 3, z: 19}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 4, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 47}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 10}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 27, y: 1, z: 25}
+    type: 1
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 3, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 3}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 4, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 0, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 0, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 0, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 40, y: 3, z: 2}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 1, z: 17}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 42}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 3, z: 25}
     type: 2
-    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+    image: {fileID: 0}
     timePeriod: {x: 0, y: 0}
-  - location: {x: 47, y: 1, z: 3}
-    type: 3
-    image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
+  - location: {x: 36, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 3, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 1, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 3, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 8}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 46, y: 0, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 4, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 15}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 1, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 1, z: 14}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 15}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 23}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 46, y: 2, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 40, y: 0, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 1, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 0, z: 42}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 47}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 3, z: 13}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 4, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 4, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 42}
+    type: 1
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 1, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 3}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 46, y: 1, z: 36}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 0, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 0, z: 12}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 0, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 1, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 1, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 40, y: 0, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 44, y: 0, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 0, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 44, y: 0, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 4, z: 8}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 3}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 4, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 1, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 1, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 1, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 9}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 44, y: 4, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 3, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 3, z: 10}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 47}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 4, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 4, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 2, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 4, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 8}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 10}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 3}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 3, z: 17}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 8}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 0, z: 15}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 15}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 47}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 11}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 0, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 2, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 9}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 46, y: 3, z: 43}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 1, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 6}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 4, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 1, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 42}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 1, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 1, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 16}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 8}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 2, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 1, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 3, z: 15}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 2, z: 32}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 15}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 0, z: 6}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 4, z: 7}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 9}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 2, z: 8}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 4, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 4, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 40, y: 2, z: 1}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 9}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 4}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 2, z: 6}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 3, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 44, y: 4, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 3, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 2, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 0, z: 10}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 0, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 0, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 1, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 2, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 0, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 1, z: 18}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 2, z: 9}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 3, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 44, y: 3, z: 20}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 44, y: 3, z: 20}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 4, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 4, z: 32}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 0, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 0, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 1, z: 16}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 3, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 4, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 3, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 12}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 14}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 1, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 2, z: 32}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 0, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 4, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 0, z: 13}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 3, z: 19}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 12}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 0, z: 10}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 3, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 3, z: 7}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 3, z: 3}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 2, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 11}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 4, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 38, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 4, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 14}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 40, y: 2, z: 0}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 4, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 0, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 12}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 2, z: 7}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 0, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 45}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 1, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 4, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 3, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 2, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 41, y: 1, z: 2}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 3, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 5}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 3, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 3, z: 18}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 1, z: 18}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 1, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 0, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 0, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 3, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 0, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 2, z: 12}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 25}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 12}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 4, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 2, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 31, y: 2, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 4, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 4, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 2, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 0, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 4, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 43, y: 1, z: 24}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 3, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 4, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 45, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 3, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 2, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 2, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 0, z: 32}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 1, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 3, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 1, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 3, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 2, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 1, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 4, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 32, y: 1, z: 28}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 44}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 33, y: 2, z: 29}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 37, y: 1, z: 26}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 1, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 2, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 47, y: 1, z: 40}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 3, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 36, y: 1, z: 31}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 0, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 35, y: 1, z: 27}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 2, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 17, y: 4, z: 33}
+    type: 4
+    image: {fileID: 0}
+    timePeriod: {x: 0, y: 0}
+  - location: {x: 42, y: 1, z: 12}
+    type: 0
+    image: {fileID: 0}
     timePeriod: {x: 0, y: 0}

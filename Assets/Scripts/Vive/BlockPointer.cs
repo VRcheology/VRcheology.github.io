@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class BlockPointer : ViveController
 {
@@ -79,10 +78,10 @@ public class BlockPointer : ViveController
 
     public override void OnTriggerPressed()
     {
-        Debug.Log("trigger " + selectedBlock.name + " " + selectedBlock.GetType());
+//        Debug.Log("trigger " + selectedBlock.name + " " + selectedBlock.GetType());
         if (selectedBlock != null)
         {
-            (selectedBlock as Block).ToggleImage();
+            selectedBlock.ToggleImage();
         }
     }
 }
