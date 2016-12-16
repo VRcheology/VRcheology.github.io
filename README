@@ -1,9 +1,10 @@
-VRcheology was create for the Seattle VRHackathon IV Sept 16-18th 2016 (http://vrhackathon.com/seattle.html)
+This VR project was created (under the title "VRcheology") for the Seattle VRHackathon IV Sept 16-18th 2016 (http://vrhackathon.com/seattle.html)
 
 The goal was to pull data from opencontext.org
 
 Anyone, anywhere! Unearth real ancient artifacts and the amazing stories behind them in virtual
 reality.
+
 We provide students and archaeology enthusiasts an explorable world. Unearth Etruscan artificats
 in VR Italy to learn about the teachers of our teachers.
 
@@ -13,12 +14,12 @@ build living history in VR with archaeology, and in archaeology with VR. Recipro
 
 List of Original Contributors.
 
-Russell Alleen-Willems (Archaeologist providing domain knowledge and some Unity/C# Scripting)
-Mader Bradley
-Jeanpierre Chery
-Blair Lyons
-Aileen McGraw
+Russell Alleen-Willems (Archaeology domain knowledge, Unity/C# Scripting)
+Mader Bradley (JSON Data Parsing/Unity Scripting)
+Jeanpierre Chery (UX Design, Unity/C# Scripting)
+Blair Lyons (Unity/C# Scripting)
+Aileen McGraw (Instructional Design and Program Storytelling)
 Tania Pavlisak (3D modeler)
-Jami Schwarzwalder
-Paul Schwarzwalder
+Jami Schwarzwalder (Git Management, Team Organization, and Social Media)
+Paul Schwarzwalder (Unity/C# Scripting)
 Stephen Silver (Background Music)
