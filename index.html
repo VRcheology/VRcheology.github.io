@@ -61,7 +61,6 @@
                     <div class="col-lg-12">
                         <h1>Poggio Civitate VR Data Viewer</h1>
                         <p>This VR project is an interactive visualization of the Poggio Civitate artifact data from OpenContext. Artifacts are "buried" underneath the ground according to the provenience data. With the HTC Vive VR headset, users move around the environment by using the pressing the controller trackpad, aiming where they wish to go, and releasing the trackpad to teleport to the targeted location. Users can excavate these artifacts by moving the Vive controller up and down over the ground surface.</p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
                         <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
                     </div>
                 </div>
@@ -74,7 +73,20 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 name="overview">Overview</h1>
-                        <p><p/>
+                        <p>This VR project was originally created for the <a href="https://seattle-vr-hackathon-iv.devpost.com/">2016 SeattleVR Hackathon IV</a>. Over the course of 48 hours, our team worked to download and parse the JSON data from the <a href="https://opencontext.org/projects/DF043419-F23B-41DA-7E4D-EE52AF22F92F">Poggio Civitate Ecavation Project</a> and visualize it within a VR environment. 
+
+
+<h3>Obstacles</h3>
+<ul>
+	<li>
+		<em>Parsing the data:</em><br />
+		The data for the project were hosted on OpenContext.org. The contained lots of information about the exavated artifacts, as well as features. Because of the variety of the data, we might have been wiser to select just one artifact class to visualize. As it was, we had to heavily clean the data in order to standardize fields. This is an issue common to many archaeological projects and, in future, we'd advise that a careful survey of the data is necessary before beginning a visualization project.
+	</li>
+	<li>
+		<em>User Interace</em><br />
+		Initially, the team wanted to create a simulation of re-excavating the artifacts, which proved to be a complex task. For the time we had for the hackatahon, we created a system where each artifact would be contained within a 1x1 meter block which was then generated and placed within the 3D space. To simulate digging, we modeled a Marshalltown trowel which would appear when the user move their Vive controller downward in a digging motion over a block, which would then delete the block and reveal a 3D model of a generic ceramic, lithic, bone, or other object based on the artifact type.
+</ul>
+                        <p/>
                     </div>
                 </div>
                 <div class="row">
