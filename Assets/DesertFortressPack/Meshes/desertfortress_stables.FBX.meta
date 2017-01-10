@@ -3,11 +3,42 @@ guid: 5637c142e950b71459fd5bc35fc1ff73
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: door_hinge1
+    100004: door_hinge2
+    100006: door_hinge3
+    100008: door_hinge4
+    100010: stables_door_1
+    100012: stables_door_2
+    100014: stables_door_3
+    100016: stables_door_4
+    100018: stables_wall
+    400000: //RootNode
+    400002: door_hinge1
+    400004: door_hinge2
+    400006: door_hinge3
+    400008: door_hinge4
+    400010: stables_door_1
+    400012: stables_door_2
+    400014: stables_door_3
+    400016: stables_door_4
+    400018: stables_wall
+    2300000: stables_door_1
+    2300002: stables_door_2
+    2300004: stables_door_3
+    2300006: stables_door_4
+    2300008: stables_wall
+    3300000: stables_door_1
+    3300002: stables_door_2
+    3300004: stables_door_3
+    3300006: stables_door_4
+    3300008: stables_wall
     4300000: stables_wall
     4300002: stables_door_4
     4300004: stables_door_3
     4300006: stables_door_2
     4300008: stables_door_1
+    11100000: //RootNode
   materials:
     importMaterials: 0
     materialName: 0
@@ -54,6 +85,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -64,7 +96,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
   humanoidOversampling: 1

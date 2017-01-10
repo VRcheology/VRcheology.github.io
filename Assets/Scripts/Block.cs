@@ -1,6 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+// This class represents on 1x1 meter block from an excavation.
+// It is used by BlockFactory.cs to create a number of blocks equal to 
+// excavation coordinates from the OpenContext data and is filled with
+// the artifacts which originate from those coordinates.
+
 [RequireComponent(typeof(MeshRenderer))]
 [RequireComponent(typeof(BoxCollider))]
 public class Block : MonoBehaviour 

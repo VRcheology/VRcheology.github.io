@@ -3,8 +3,21 @@ guid: f66fd62f440a18141a0d693c51c0b2bc
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: door1_hinge
+    100004: quarters
+    100006: quarters_door
+    400000: //RootNode
+    400002: door1_hinge
+    400004: quarters
+    400006: quarters_door
+    2300000: quarters
+    2300002: quarters_door
+    3300000: quarters
+    3300002: quarters_door
     4300000: quarters
     4300002: quarters_door
+    11100000: //RootNode
   materials:
     importMaterials: 0
     materialName: 0
@@ -51,6 +64,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -61,7 +75,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
   humanoidOversampling: 1

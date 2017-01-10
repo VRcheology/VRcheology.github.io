@@ -3,12 +3,49 @@ guid: 448382a651e980643bd4845cc85db6c0
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: door_hinge_1
+    100004: door_hinge_2
+    100006: door_hinge_3
+    100008: door_hinge_4
+    100010: door_hinge_5
+    100012: officers_quarters
+    100014: officers_quarters_door1
+    100016: officers_quarters_door2
+    100018: officers_quarters_door3
+    100020: officers_quarters_door4
+    100022: officers_quarters_door5
+    400000: //RootNode
+    400002: door_hinge_1
+    400004: door_hinge_2
+    400006: door_hinge_3
+    400008: door_hinge_4
+    400010: door_hinge_5
+    400012: officers_quarters
+    400014: officers_quarters_door1
+    400016: officers_quarters_door2
+    400018: officers_quarters_door3
+    400020: officers_quarters_door4
+    400022: officers_quarters_door5
+    2300000: officers_quarters
+    2300002: officers_quarters_door1
+    2300004: officers_quarters_door2
+    2300006: officers_quarters_door3
+    2300008: officers_quarters_door4
+    2300010: officers_quarters_door5
+    3300000: officers_quarters
+    3300002: officers_quarters_door1
+    3300004: officers_quarters_door2
+    3300006: officers_quarters_door3
+    3300008: officers_quarters_door4
+    3300010: officers_quarters_door5
     4300000: officers_quarters_door1
     4300002: officers_quarters_door5
     4300004: officers_quarters
     4300006: officers_quarters_door2
     4300008: officers_quarters_door3
     4300010: officers_quarters_door4
+    11100000: //RootNode
   materials:
     importMaterials: 0
     materialName: 0
@@ -55,6 +92,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -65,7 +103,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
   humanoidOversampling: 1
