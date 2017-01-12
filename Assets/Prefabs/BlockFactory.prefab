@@ -140,5 +140,5 @@ MonoBehaviour:
   objectPrefab: {fileID: 114000012425465228, guid: 287da4d20f99146b4af6049dc70cc849,
     type: 2}
   ground: {fileID: 1000011011034398}
-  data: {fileID: 11400000, guid: b0e8bfa8d0337c74e80a48ad60b29d65, type: 2}
+  data: {fileID: 11400000, guid: fd6977ef8174c1f47a57f97c733e463f, type: 2}
   size: {x: 50, y: 5, z: 50}
