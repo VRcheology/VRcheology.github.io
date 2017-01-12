@@ -23,7 +23,7 @@ public class BlockPointer : ViveController
             GetSelectedBlock();
             if (selectedBlock != null)
             {
-                Debug.Log("excavate");
+                //Debug.Log("excavate");
                 selectedBlock.Excavate();
             }
         }
@@ -61,24 +61,29 @@ public class BlockPointer : ViveController
                 selectedBlock = block;
                 if (selectedBlock != null)
                 {
-                    Debug.Log(selectedBlock.name);
+                    //Debug.Log(selectedBlock.name);
                 }
                 else
                 {
-                    Debug.Log("selectedBlock is null");
+                    //Debug.Log("selectedBlock is null");
                 }
             }
         }
         else
         {
-            Debug.Log("null");
+            //Debug.Log("null");
             selectedBlock = null;
         }
     }
 
     public override void OnTriggerPressed()
     {
-//        Debug.Log("trigger " + selectedBlock.name + " " + selectedBlock.GetType());
+        if (selectedBlock != null)
+        {
+            Debug.Log("trigger " + selectedBlock.name);
+            ObjectDataPanel.Instance.OpenPanel(selectedBlock);
+        }
+        
         if (selectedBlock != null)
         {
             selectedBlock.ToggleImage();
