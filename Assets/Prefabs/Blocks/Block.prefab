@@ -126,7 +126,6 @@ GameObject:
   - 65: {fileID: 65000011881174886}
   - 23: {fileID: 23000010397430602}
   - 114: {fileID: 114000011358264418}
-  - 114: {fileID: 114000011276247228}
   m_Layer: 8
   m_Name: Block
   m_TagString: Untagged
@@ -454,17 +453,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &114000011276247228
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011989076388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8988c623b391e7242969759ca6caca1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114000011358264418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -477,10 +465,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   excavated: 1
-  location: {x: 0, y: 0, z: 0}
   fullGeometry: {fileID: 23000013428719160}
   halfGeometry: {fileID: 23000011815615662}
-  image: {fileID: 0}
+  feature:
+    location: {x: 0, y: 0, z: 0}
+    type: 0
+    timePeriod: {x: 0, y: 0}
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+    description: 
 --- !u!114 &114000011494569354
 MonoBehaviour:
   m_ObjectHideFlags: 1

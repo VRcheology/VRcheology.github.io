@@ -40,7 +40,6 @@ GameObject:
   - 23: {fileID: 23000013539706714}
   - 65: {fileID: 65000011514801950}
   - 114: {fileID: 114000013714325518}
-  - 114: {fileID: 114000011708378114}
   m_Layer: 8
   m_Name: AnimalBone
   m_TagString: Untagged
@@ -159,17 +158,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114000011708378114
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013511355742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8988c623b391e7242969759ca6caca1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114000013714325518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -182,7 +170,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   excavated: 0
-  location: {x: 0, y: 0, z: 0}
   fullGeometry: {fileID: 0}
   halfGeometry: {fileID: 0}
-  image: {fileID: 0}
+  feature:
+    location: {x: 0, y: 0, z: 0}
+    type: 0
+    timePeriod: {x: 0, y: 0}
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+    description: 

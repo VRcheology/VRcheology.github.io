@@ -23,7 +23,6 @@ GameObject:
   - 23: {fileID: 23000012390921306}
   - 65: {fileID: 65000012782330302}
   - 114: {fileID: 114000011297964822}
-  - 114: {fileID: 114000013192258672}
   m_Layer: 8
   m_Name: Pottery
   m_TagString: Untagged
@@ -171,20 +170,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   excavated: 0
-  location: {x: 0, y: 0, z: 0}
   fullGeometry: {fileID: 0}
   halfGeometry: {fileID: 0}
-  image1: {fileID: 0}
-  image2: {fileID: 0}
-  description: Pottery
---- !u!114 &114000013192258672
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010111864890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8988c623b391e7242969759ca6caca1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  feature:
+    location: {x: 0, y: 0, z: 0}
+    type: 0
+    timePeriod: {x: 0, y: 0}
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+    description: 
