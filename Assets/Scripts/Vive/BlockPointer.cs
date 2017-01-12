@@ -7,23 +7,17 @@ public class BlockPointer : ViveController
     public GameObject shovel;
     public GameObject hand;
     public GameObject ground;
+    public GameObject beam;
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == ground)
         {
-            if (!shovel.activeSelf)
-            {
-                shovel.SetActive(true);
-                if (hand.transform.childCount > 0)
-                {
-                    hand.SetActive(false);
-                }
-            }
+            shovel.transform.localRotation = Quaternion.identity;
+            beam.SetActive(true);
             GetSelectedBlock();
             if (selectedBlock != null)
             {
-                Debug.Log("excavate");
                 selectedBlock.Excavate();
             }
         }
@@ -33,11 +27,8 @@ public class BlockPointer : ViveController
     {
         if (other.gameObject == ground)
         {
-            if (shovel.activeSelf)
-            {
-                //shovel.SetActive(false);
-                hand.SetActive(true);
-            }
+            shovel.transform.localRotation = Quaternion.Euler(-45f * Vector3.right);
+            beam.SetActive(false);
         }
     }
 
@@ -47,41 +38,29 @@ public class BlockPointer : ViveController
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, 100f, blockLayer))
         {
-            Block block = hit.transform.GetComponent<Block>();
-            if (block == null)
-            {
-                block = hit.transform.GetComponent<AnimalBoneBlock>();
-            }
+            Block block = hit.transform.GetComponent<AnimalBoneBlock>();
             if (block == null)
             {
                 block = hit.transform.GetComponent<PotteryBlock>();
             }
+            if (block == null)
+            {
+                block = hit.transform.GetComponent<Block>();
+            }
             if (block != selectedBlock)
             {
                 selectedBlock = block;
-                if (selectedBlock != null)
-                {
-                    Debug.Log(selectedBlock.name);
-                }
-                else
-                {
-                    Debug.Log("selectedBlock is null");
-                }
             }
         }
         else
         {
-            Debug.Log("null");
             selectedBlock = null;
         }
     }
 
     public override void OnTriggerPressed()
     {
-//        Debug.Log("trigger " + selectedBlock.name + " " + selectedBlock.GetType());
-        if (selectedBlock != null)
-        {
-            selectedBlock.ToggleImage();
-        }
+        GetSelectedBlock();
+        ObjectDataPanel.Instance.TogglePanel(selectedBlock);
     }
 }

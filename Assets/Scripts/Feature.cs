@@ -15,16 +15,18 @@ public class Feature
 {
 	public Vector3 location;
 	public FeatureType type;
-	public Sprite image;
 	public Vector2 timePeriod;
-    private GameObject obj;
+    public Sprite image1;
+    public Sprite image2;
+    public string description;
 
-	public Feature (Vector3 _location, FeatureType _type, Sprite _image)
+    public Feature (Vector3 _location, FeatureType _type)
 	{
 		location = _location;
 		type = _type;
-		image = _image;
 	}
+
+    private GameObject obj;
 
     public GameObject CreateGameObject()
     {
