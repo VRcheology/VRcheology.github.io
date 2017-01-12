@@ -35,7 +35,7 @@ public class BlockPointer : ViveController
         {
             if (shovel.activeSelf)
             {
-                shovel.SetActive(false);
+                //shovel.SetActive(false);
                 hand.SetActive(true);
             }
         }
