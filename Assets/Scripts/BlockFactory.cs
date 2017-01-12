@@ -53,6 +53,7 @@ public class BlockFactory : MonoBehaviour
 				nextFeature = features.Dequeue();
 			}
 
+            Feature feature;
 			blocks = new Block[Mathf.RoundToInt(size.x), Mathf.RoundToInt(size.y), Mathf.RoundToInt(size.z)];
 			for (int u = 0; u < size.x; u++)
 			{
@@ -61,23 +62,33 @@ public class BlockFactory : MonoBehaviour
 					for (int w = 0; w < size.z; w++)
 					{
 						Vector3 location = new Vector3(u, v, w);
+                        feature = GetFeature(location);
 
-						blocks[u, v, w] = CreateBlock( GetType(location) );
-						blocks[u, v, w].transform.SetParent(transform);
-						blocks[u, v, w].Init(location);
+                        if (feature != null)
+                        {
+                            blocks[u, v, w] = CreateBlock(feature.type);
+                            blocks[u, v, w].transform.SetParent(transform);
+                            blocks[u, v, w].Init(feature);
+                        }
+                        else
+                        {
+                            blocks[u, v, w] = CreateBlock(FeatureType.None);
+                            blocks[u, v, w].transform.SetParent(transform);
+                            blocks[u, v, w].Init(new Feature(location, FeatureType.None));
+                        }
 					}
 				}
 			}
 		}
 	}
 
-	FeatureType GetType (Vector3 location)
+	Feature GetFeature (Vector3 location)
 	{
-		FeatureType type = FeatureType.None;
+        Feature feature = null;
 		if (nextFeature != null && nextFeature.location == location) 
 		{
-			type = nextFeature.type;
-			Debug.Log("Making " + type.ToString() + " at " + location);
+			Debug.Log("Making " + nextFeature.type.ToString() + " at " + location);
+            feature = nextFeature;
 			if (features.Count > 0) 
 			{
 				nextFeature = features.Dequeue();
@@ -87,7 +98,7 @@ public class BlockFactory : MonoBehaviour
 				nextFeature = null;
 			}
 		}
-		return type;
+		return feature;
 	}
 
 	Block CreateBlock (FeatureType type)
@@ -114,10 +125,10 @@ public class BlockFactory : MonoBehaviour
 
 	void MakeTestFeatures ()
 	{
-		features.Enqueue(new Feature(new Vector3(0, 5, 2), FeatureType.Pottery, null));
-		features.Enqueue(new Feature(new Vector3(1, 0, 0), FeatureType.Pottery, null));
-		features.Enqueue(new Feature(new Vector3(4, 3, 1), FeatureType.Object, null));
-		features.Enqueue(new Feature(new Vector3(5, 5, 2), FeatureType.AnimalBone, null));
+		features.Enqueue(new Feature(new Vector3(0, 5, 2), FeatureType.Pottery));
+		features.Enqueue(new Feature(new Vector3(1, 0, 0), FeatureType.Pottery));
+		features.Enqueue(new Feature(new Vector3(4, 3, 1), FeatureType.Object));
+		features.Enqueue(new Feature(new Vector3(5, 5, 2), FeatureType.AnimalBone));
 	}
 
     public Block GetBlockAbove (Vector3 location)

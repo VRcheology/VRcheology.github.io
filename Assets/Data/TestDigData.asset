@@ -16,19 +16,34 @@ MonoBehaviour:
     type: 2
     image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
     timePeriod: {x: 0, y: 0}
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+    description: This is a pottery shard of some kind.
   - location: {x: 5, y: 1, z: 43}
     type: 3
     image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
     timePeriod: {x: 0, y: 0}
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+    description: Animal bone!
   - location: {x: 7, y: 1, z: 45}
     type: 3
     image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
     timePeriod: {x: 0, y: 0}
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+    description: Another animal bone...
   - location: {x: 46, y: 2, z: 5}
     type: 2
     image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
     timePeriod: {x: 0, y: 0}
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+    description: This is a different pottery piece.
   - location: {x: 47, y: 1, z: 3}
     type: 3
     image: {fileID: 21300000, guid: 85892af9108954f75b337a0f472a6cdb, type: 3}
     timePeriod: {x: 0, y: 0}
+    image1: {fileID: 0}
+    image2: {fileID: 0}
+    description: What animal did this come from?

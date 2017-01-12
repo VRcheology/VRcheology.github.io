@@ -101,7 +101,7 @@ public class Parser
         y = NormalizeValue(y, locationRange.z, locationRange.w, 0, width - 1);
         float z = Mathf.Round((depth - 1) * Random.Range(0, 1f));
 
-        return new Feature(new Vector3(x, z, y), category, null);
+        return new Feature(new Vector3(x, z, y), category);
     }
 
     static float NormalizeValue(float value, float originalMin, float originalMax, float targetMin, float targetMax)

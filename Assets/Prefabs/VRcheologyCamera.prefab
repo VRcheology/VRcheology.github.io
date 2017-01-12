@@ -734,6 +734,7 @@ MonoBehaviour:
   shovel: {fileID: 1000012756328616}
   hand: {fileID: 1000011783431186}
   ground: {fileID: 0}
+  beam: {fileID: 1000013071014118}
 --- !u!114 &114000011131174962
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -6,12 +6,12 @@ using System.Collections;
 public class Block : MonoBehaviour 
 {
     public int excavated = 2;
-	public Vector3 location;
 
     public MeshRenderer fullGeometry;
     public MeshRenderer halfGeometry;
     MeshRenderer currentGeometry;
-    public GameObject image;
+
+    public Feature feature;
 
     BlockFactory _factory;
     BlockFactory factory
@@ -52,12 +52,11 @@ public class Block : MonoBehaviour
         }
     }
 
-    public virtual void Init (Vector3 _location)
+    public virtual void Init (Feature _feature)
 	{
-		location = _location;
-		transform.localPosition = new Vector3(location.x, -location.y, location.z);
-        //boxCollider.center = location.y * Vector3.up;
-		name = GetType().ToString() + "_" + location.x + ":" + location.y + ":" + location.z;
+        feature = _feature;
+		transform.localPosition = new Vector3(feature.location.x, -feature.location.y, feature.location.z);
+		name = GetType().ToString() + "_" + feature.location.x + ":" + feature.location.y + ":" + feature.location.z;
         //CheckVisibility();
 	}
 
@@ -78,24 +77,8 @@ public class Block : MonoBehaviour
     {
         get
         {
-            Block blockAbove = factory.GetBlockAbove(location);
+            Block blockAbove = factory.GetBlockAbove(feature.location);
             return excavated > 0 && (blockAbove == null || blockAbove.excavated == 0);
-        }
-    }
-
-    public void ToggleImage ()
-    {
-        if (image != null)
-        {
-            if (image.activeSelf)
-            {
-                image.SetActive(false);
-            }
-            else
-            {
-                image.transform.position = new Vector3(image.transform.position.x, 1.5f, image.transform.position.z);
-                image.SetActive(true);
-            }
         }
     }
 }
