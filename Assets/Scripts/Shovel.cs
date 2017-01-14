@@ -6,7 +6,6 @@ public class Shovel : MonoBehaviour
     public GameObject ground;
     public bool inGround;
     public GameObject geometry;
-    bool disabled = false;
 
     BlockPointer _pointer;
     BlockPointer pointer
@@ -19,11 +18,6 @@ public class Shovel : MonoBehaviour
             }
             return _pointer;
         }
-    }
-
-    void Update ()
-    {
-
     }
 
     void OnTriggerEnter (Collider other)
@@ -42,15 +36,4 @@ public class Shovel : MonoBehaviour
     {
         geometry.SetActive(enable);
     }
-
-    //void OnTriggerExit (Collider other)
-    //{
-    //    if (other.gameObject == ground)
-    //    {
-    //        if (pointer.selectedBlock != null)
-    //        {
-    //            pointer.selectedBlock.Excavate();
-    //        }
-    //    }
-    //}
 }
