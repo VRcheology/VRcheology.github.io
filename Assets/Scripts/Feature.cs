@@ -25,21 +25,4 @@ public class Feature
 		location = _location;
 		type = _type;
 	}
-
-    private GameObject obj;
-
-    public GameObject CreateGameObject()
-    {
-        Debug.Log(obj);
-        if (obj == null)
-        {
-
-            obj = GameObject.Instantiate(DataImporter.Instance.FeaturePrefab);
-
-            obj.GetComponent<Transform>().position = location;
-            
-        }
-
-        return obj;
-    }
 }
